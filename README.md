@@ -1,6 +1,7 @@
 # concat-color-matrices
-[![CircleCI](https://circleci.com/gh/iyegoroff/concat-color-matrices.svg?style=svg)](https://circleci.com/gh/iyegoroff/concat-color-matrices)
 [![npm version](https://badge.fury.io/js/concat-color-matrices.svg?t=1495378566925)](https://badge.fury.io/js/concat-color-matrices)
+[![CircleCI](https://circleci.com/gh/iyegoroff/concat-color-matrices.svg?style=svg)](https://circleci.com/gh/iyegoroff/concat-color-matrices)
+[![codecov](https://codecov.io/gh/iyegoroff/concat-color-matrices/branch/master/graph/badge.svg?t=1520230083925)](https://codecov.io/gh/iyegoroff/concat-color-matrices)
 [![Dependency Status](https://david-dm.org/iyegoroff/concat-color-matrices.svg?t=1495378566925)](https://david-dm.org/iyegoroff/concat-color-matrices)
 [![devDependencies Status](https://david-dm.org/iyegoroff/concat-color-matrices/dev-status.svg)](https://david-dm.org/iyegoroff/concat-color-matrices?type=dev)
 [![typings included](https://img.shields.io/badge/typings-included-brightgreen.svg?t=1495378566925)](src/index.d.ts)
