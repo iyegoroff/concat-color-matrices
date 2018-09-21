@@ -1,0 +1,56 @@
+{
+  "name": "concat-color-matrices",
+  "version": "0.0.0",
+  "description": "Functions for combining color matrices",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "preversion": "npm run build",
+    "build": "rm -rf dist && mkdir dist && tsc -p .",
+    "lint": "tslint -p . && tslint test/*",
+    "watch": "npm run build -- --watch",
+    "test": "jest"
+  },
+  "keywords": [
+    "color-matrix"
+  ],
+  "files": [
+    "dist",
+    "src",
+    "test"
+  ],
+  "author": "iyegoroff <iegoroff@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iyegoroff/concat-color-matrices/issues"
+  },
+  "homepage": "https://github.com/iyegoroff/concat-color-matrices#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iyegoroff/concat-color-matrices.git"
+  },
+  "devDependencies": {
+    "@types/invariant": "^2.2.29",
+    "@types/jest": "^23.3.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.1",
+    "tslint": "^5.11.0",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.0.3",
+    "vrsource-tslint-rules": "^5.8.2"
+  },
+  "dependencies": {
+    "invariant": "^2.2.4"
+  },
+  "jest": {
+    "moduleFileExtensions": ["js", "ts"],
+    "testRegex": ".spec.ts$",
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "coverageDirectory": "coverage",
+    "collectCoverage": true,
+    "testEnvironment": "node"
+  }
+}
