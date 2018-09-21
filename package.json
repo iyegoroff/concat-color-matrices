@@ -1,6 +1,6 @@
 {
   "name": "concat-color-matrices",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Functions for combining color matrices",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
