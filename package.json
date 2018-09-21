@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "preversion": "npm run build",
+    "preversion": "npm run lint && npm run build && npm t",
     "build": "rm -rf dist && mkdir dist && tsc -p .",
     "lint": "tslint -p . && tslint test/*",
     "watch": "npm run build -- --watch",
