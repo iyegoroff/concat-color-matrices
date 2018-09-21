@@ -9,7 +9,8 @@
     "build": "rm -rf dist && mkdir dist && tsc -p .",
     "lint": "tslint -p . && tslint test/*",
     "watch": "npm run build -- --watch",
-    "test": "jest"
+    "test": "jest",
+    "coverage": "codecov"
   },
   "keywords": [
     "color-matrix"
@@ -33,6 +34,7 @@
     "@types/invariant": "^2.2.29",
     "@types/jest": "^23.3.2",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "codecov": "^3.1.0",
     "jest": "^23.6.0",
     "ts-jest": "^23.10.1",
     "tslint": "^5.11.0",
@@ -44,7 +46,10 @@
     "invariant": "^2.2.4"
   },
   "jest": {
-    "moduleFileExtensions": ["js", "ts"],
+    "moduleFileExtensions": [
+      "js",
+      "ts"
+    ],
     "testRegex": ".spec.ts$",
     "transform": {
       "^.+\\.ts$": "ts-jest"
