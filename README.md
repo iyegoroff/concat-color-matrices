@@ -31,3 +31,4 @@ concatTwoColorMatrices(matB: Matrix, matA: Matrix): Matrix
 ## Credits
 
 - `concatTwoColorMatrices` function is based on Android SDK [sources](https://goo.gl/MMDopQ)
+
